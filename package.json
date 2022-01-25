@@ -1,12 +1,12 @@
 {
   "name": "amazon-price-scrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "yarn build",
     "prepublishOnly": "yarn test && yarn lint",
@@ -14,7 +14,9 @@
     "version": "yarn format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["Amazon Prize Scrap"],
+  "keywords": [
+    "Amazon Prize Scrap"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
