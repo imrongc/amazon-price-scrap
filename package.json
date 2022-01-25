@@ -1,6 +1,6 @@
 {
   "name": "amazon-price-scrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "version": "yarn format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["Amazon Prize Scrap"],
+  "keywords": [
+    "Amazon Prize Scrap"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
